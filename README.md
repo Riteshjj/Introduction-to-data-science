@@ -5,22 +5,22 @@ This is the repo of the Write a Data Science Blog Post project for the Udacity D
 
 1- Business Understanding
 
-We investigated if North America was a better place to immigrate rather then Europe for a software developer. 
+We investigated which developer and non developer are more satisfied with their job.  
 
-For this we need to understand what is important to a person searching for a new job, things such as salary, salary growth, and satisfaction in what they do are important factors that determine which location is a better choice.
+For this we need to understand what can be the category for developers as there are multiple skills which are utilised by developers and on the other hand non developers can also be categorised. we also need to understand whihc profession is more in interesting and benefitial with respect to career growth.
 
-For this, we asked 3 questions:
-- Which location has the highest salary?
-- Which location has the highest salary growth?
-- which location has the highest career satisfaction?
+There are 3 folowing questions:
+- Which developer has the highest salary?
+- Which developer has the highest career satisfaction?
+- which non developer has the highest career satisfaction?
 
 2- Data Understanding
 
-The data comes from the stack overflow 2017 survey. the rows are the different respondants to the survey, and the columns are the answer to the survey questions. It contains data that comes as numerical, categorical and text. It has missing values and outliers as well.
+There are lots of information from the stack overflow survey. we focused on specific information and gathered the data which can help to analyse our findings.
 
 3- Prepare Data
 
-For the data preparation phase, we gathered the data, assessed it and then proceeded to clean it, focusing on our columns of interest, with python libraries of Numpy and Pandas
+we cleaned the data, filter the rows and split and trim the data for our requirement.
 
 4- Data Modeling
 
@@ -30,18 +30,17 @@ we graphed different behaviours that were relevant to the 3 questions, with the 
 
 
 for the 3 questions, we arrived at the following conclusions:
-- Which location has the highest salary? North America
-- Which location has the highest salary growth? Both follow a similar pattern
-- which location has the highest career satisfaction? THey start the same in the first year of work, but then Europe has a drop in satisfaction of which never truly recovers until 20 years later.
+- Which developer has the highest salary? developers who have not mentioned their skill. whereas among the identified skills, Admin has highest salary
+- Which developer has the highest career satisfaction? Admins are more satisfied with their job
+- which non developer has the highest career satisfaction? Educators are more interested for their job.
 
 
 
-The blog is written on the following [link](https://ritijj-nanodegree.blogspot.com/2024/08/career-opportunity-in-europe-and-north.html)
+The blog is written on the following [link](https://ritijj-nanodegree.blogspot.com/2024/08/career-satisfaction-for-developer-and.html)
 
 
 Finally, the readme format:
 
 - the libraries used: Numpy, Pandas, Matplotlib and Seaborn
-- the motivation for the project: This is a question close to my heart since my country is unstable at the moment an immigration is always a choice.
-- the files in the repository with a small description of each: I included the zip file with the survey_results_public.csv file that is used as the dataset. Also, the Code file is the jupyter notebook script.
-a summary of the results of the analysis: In the end, we concluded that North America is the best choice.
+- Non developer salaries are not prepsent in the survey so, did not find the comparison of salaries between developer and non developer.
+- overall, Educators are more satified with their job among the all professionals (either developer or non developer)
